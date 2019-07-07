@@ -13,4 +13,8 @@ class Post
       @author.name
     end
   end
+  
+  def all
+    @@all
+  end
 end
